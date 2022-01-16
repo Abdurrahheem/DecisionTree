@@ -6,6 +6,8 @@ This implementation uses the following loss function for features selection:
 
 $Q(R) = -\frac {|R_{\ell}|}{|R|}H(R_\ell) -\frac {|R_r|}{|R|}H(R_r) $
 
+<img src="https://render.githubusercontent.com/render/math?math=Q(R) = -\frac {|R_{\ell}|}{|R|}H(R_\ell) -\frac {|R_r|}{|R|}H(R_r)">
+
 where $R$ — set of objects, in a tree, $R_{\ell}$ and $R_r$ — objects, in a left and right sub-trees,
 $H(R)$ — impurity criterion(Gini or Entropy).
 
